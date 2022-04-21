@@ -15,4 +15,17 @@ const secondsToMinutes = (secs) => {
     .join(":");
 };
 
-export { formatDate, secondsToMinutes };
+const displayRank = (rank) => {
+  switch (rank) {
+    case 1:
+      return `🥇`;
+    case 2:
+      return `🥈`;
+    case 3:
+      return `🥉`;
+    default:
+      return rank;
+  }
+};
+
+export { formatDate, secondsToMinutes, displayRank };

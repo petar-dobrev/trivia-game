@@ -129,7 +129,7 @@ function Profile() {
     {
       field: "timePayed",
       headerName: "Time Played",
-      type: "number",
+      type: "dateTime",
       flex: useSmallScreenSize ? 2 : 2,
       headerAlign: "center",
       cellClassName: "cell",

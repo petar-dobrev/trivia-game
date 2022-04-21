@@ -1,7 +1,7 @@
 import { DataGrid } from "@mui/x-data-grid";
 import "./gamesDataGrid.css";
 
-function GamesGrid({ rows, columns }) {
+function GamesDataGrid({ rows, columns }) {
   return (
     <div className="gridContainer">
       <DataGrid
@@ -18,4 +18,4 @@ function GamesGrid({ rows, columns }) {
   );
 }
 
-export default GamesGrid;
+export default GamesDataGrid;
