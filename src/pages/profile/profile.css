@@ -1,0 +1,8 @@
+.statTitle {
+    margin: 0.5rem 0 0;
+    font-weight: 500;
+}
+.statValue {
+    font-size: 1.6rem;
+    margin: 0 0 0.5rem;
+}
