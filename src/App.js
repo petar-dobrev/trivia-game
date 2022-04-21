@@ -11,9 +11,9 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<MainMenu />} />
+          <Route path="/play" element={<Play />} />
           <Route path="/leaderboard" element={<Leaderboard />} />
           <Route path="/users/:userId" element={<Profile />} />
-          <Route path="/play" element={<Play />} />
         </Routes>
       </Router>
     </div>
