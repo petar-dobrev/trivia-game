@@ -1,0 +1,7 @@
+.cell {
+    justify-content: center !important;
+}
+
+.gridContainer {
+    margin-block: 1rem
+}

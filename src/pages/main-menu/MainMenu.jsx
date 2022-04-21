@@ -42,7 +42,7 @@ function MainMenu() {
 
   return (
     <div className="mainMenuContainer">
-      <Container maxWidth="lg">{buttons}</Container>
+      <Container maxWidth="sm">{buttons}</Container>
     </div>
   );
 }
