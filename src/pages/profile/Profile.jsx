@@ -11,7 +11,7 @@ import "./profile.css";
 function Profile() {
   const Item = styled(Paper)(({ theme }) => ({
     backgroundColor: theme.palette.mode === "dark" ? "#1A2027" : "#fff",
-    padding: "theme.spacing(1)",
+    padding: theme.spacing(1),
     textAlign: "center",
     display: "flex",
     flexDirection: "column",

@@ -1,0 +1,27 @@
+.dashboardTitle,
+.dashboardValue {
+  margin: 0;
+  padding-inline: 1rem;
+}
+
+.dashboardTitle {
+  padding-top: 0.5rem;
+}
+
+.dashboardValue {
+  padding-bottom: 0.5rem;
+  font-size: 1.5rem;
+}
+
+.playBtn {
+  min-height: 5rem;
+  font-size: 1.5rem !important;
+}
+
+.playBtnIcon {
+  font-size: 2rem !important;
+}
+
+.nextQuestionBtnContainer {
+    margin: 2rem auto;
+}

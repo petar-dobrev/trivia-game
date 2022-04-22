@@ -1,3 +1,7 @@
+.gridContainer {
+    margin-block: 1rem
+}
+
 .cell {
     justify-content: center !important;  
     font-weight: 500;
@@ -5,8 +9,4 @@
 
 .cell.cellRank {
     font-size: 1.5rem;
-}
-
-.gridContainer {
-    margin-block: 1rem
 }
